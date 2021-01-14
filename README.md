@@ -20,6 +20,8 @@ This reference design uses SAMG55 XPLAINED PRO evaluation kit and BM78-PICTAIL. 
 
 For more details on the DFU protocol, please refer to [RN4678-BM78-Firmware-Upgrade-using-Host-MCU](./RN4678-BM78-Firmware-Upgrade-using-Host-MCU.pdf)
 
+This DFU is for firmware upgrade. For EEPROM upgrade, Please refer to example [BM7x Configuration Library for PIC MCUs](https://ww1.microchip.com/downloads/en/DeviceDoc/BM7xConfigurationLibraryv1.10.zip) which also works for BM78.
+
 # Setup the demo
 This reference design uses SAMG55 XPLAINED PRO evaluation kit and BM78-PICTAIL. The SAMG55 will control the whole process of firmware DFU to BM78 using UART. 
 
