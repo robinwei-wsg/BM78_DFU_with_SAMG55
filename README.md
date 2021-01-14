@@ -50,13 +50,13 @@ Use SW4 to set BM78 in ‘WRITE FLASH’ mode with all pin set to ON. And then d
 ### Open the MPLAB-X project
 ![Open project](./images/Open-project.png "Open project")
 
-The SAMG55 firmware is designed with MPLAB-X and Harmony latest revision. Open the project and one may see the BM78_DFU which includes the DFU code and a processed BM78 1v38 firmware which is stored in a C array. The only one exploded API to application level is BM78_DFU( ).
+The SAMG55 firmware is designed with MPLAB-X and Harmony latest revision. Open the project and one may see the BM78_DFU which includes the DFU code and a processed BM78 1v38 firmware which is stored in a C array. The only one exposed API to application level is BM78_DFU( ).
 
 ### Run the SAMG55 firmware
 
 - Put BM78 in ‘WRITE FLASH’ mode manually as section 6.1
 - Open a Tera Term on PC
-- Compile and download the SAM55
+- Compile and download the SAMG55
 - On the Tera term, user is prompted to input yes to start the DFU
 
 ![Prompt DFU](./images/prompt-DFU.png "prompt DFU")
